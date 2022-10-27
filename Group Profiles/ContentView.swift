@@ -31,7 +31,7 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.713, saturation: 0.288, brightness: 0.554))
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                Text("Extra !!!")
+                Text("Extra Change !!! hajar")
             }
             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
