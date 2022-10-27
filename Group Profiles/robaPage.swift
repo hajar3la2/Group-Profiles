@@ -32,6 +32,7 @@ struct robaPage: View {
             
         }
         .padding()
+        .padding()
     }
 }
 
