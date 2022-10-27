@@ -30,6 +30,7 @@ struct robaPage: View {
                 .shadow(radius: 1)
             Text("a 23 y/o artist who enjoys life, loves gaming 'especially genshin impact', listening to music and recently obbsessed w reading!")
             
+            Text("this is the test")
         }
         .padding()
         .padding()
