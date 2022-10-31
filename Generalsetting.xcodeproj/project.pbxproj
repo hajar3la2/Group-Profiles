@@ -11,6 +11,13 @@
 		0D62CF25290A56A9003127FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF24290A56A9003127FF /* ContentView.swift */; };
 		0D62CF27290A56AA003127FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D62CF26290A56AA003127FF /* Assets.xcassets */; };
 		0D62CF2A290A56AA003127FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D62CF29290A56AA003127FF /* Preview Assets.xcassets */; };
+		0D62CF6B290BEF0D003127FF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF6A290BEF0D003127FF /* SwiftUIView.swift */; };
+		0D62CF70290BFFD1003127FF /* forget password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF6F290BFFD1003127FF /* forget password.swift */; };
+		0D62CF72290C0DBB003127FF /* Close.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF71290C0DBB003127FF /* Close.swift */; };
+		0D62CF7D290D008C003127FF /* itemlistviewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF7C290D008C003127FF /* itemlistviewmodel.swift */; };
+		0D62CF7F290D900D003127FF /* privacy policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF7E290D900D003127FF /* privacy policy.swift */; };
+		0D62CF86290E5D67003127FF /* coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF85290E5D67003127FF /* coffee.swift */; };
+		0D62CF8A290E7E0B003127FF /* Delete account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62CF89290E7E0B003127FF /* Delete account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		0D62CF24290A56A9003127FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D62CF26290A56AA003127FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D62CF29290A56AA003127FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D62CF6A290BEF0D003127FF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0D62CF6F290BFFD1003127FF /* forget password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "forget password.swift"; sourceTree = "<group>"; };
+		0D62CF71290C0DBB003127FF /* Close.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Close.swift; sourceTree = "<group>"; };
+		0D62CF7C290D008C003127FF /* itemlistviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemlistviewmodel.swift; sourceTree = "<group>"; };
+		0D62CF7E290D900D003127FF /* privacy policy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "privacy policy.swift"; sourceTree = "<group>"; };
+		0D62CF85290E5D67003127FF /* coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffee.swift; sourceTree = "<group>"; };
+		0D62CF89290E7E0B003127FF /* Delete account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete account.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 		0D62CF16290A56A9003127FF = {
 			isa = PBXGroup;
 			children = (
+				0D62CF85290E5D67003127FF /* coffee.swift */,
 				0D62CF21290A56A9003127FF /* Generalsetting */,
 				0D62CF20290A56A9003127FF /* Products */,
 			);
@@ -51,8 +66,14 @@
 		0D62CF21290A56A9003127FF /* Generalsetting */ = {
 			isa = PBXGroup;
 			children = (
+				0D62CF7B290D004F003127FF /* view Models */,
+				0D62CF6E290BFFA5003127FF /* password */,
 				0D62CF22290A56A9003127FF /* GeneralsettingApp.swift */,
 				0D62CF24290A56A9003127FF /* ContentView.swift */,
+				0D62CF89290E7E0B003127FF /* Delete account.swift */,
+				0D62CF6F290BFFD1003127FF /* forget password.swift */,
+				0D62CF6A290BEF0D003127FF /* SwiftUIView.swift */,
+				0D62CF7E290D900D003127FF /* privacy policy.swift */,
 				0D62CF26290A56AA003127FF /* Assets.xcassets */,
 				0D62CF28290A56AA003127FF /* Preview Content */,
 			);
@@ -65,6 +86,22 @@
 				0D62CF29290A56AA003127FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D62CF6E290BFFA5003127FF /* password */ = {
+			isa = PBXGroup;
+			children = (
+				0D62CF71290C0DBB003127FF /* Close.swift */,
+			);
+			path = password;
+			sourceTree = "<group>";
+		};
+		0D62CF7B290D004F003127FF /* view Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D62CF7C290D008C003127FF /* itemlistviewmodel.swift */,
+			);
+			path = "view Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +146,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 0D62CF16290A56A9003127FF;
 			productRefGroup = 0D62CF20290A56A9003127FF /* Products */;
@@ -137,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D62CF7F290D900D003127FF /* privacy policy.swift in Sources */,
 				0D62CF25290A56A9003127FF /* ContentView.swift in Sources */,
+				0D62CF72290C0DBB003127FF /* Close.swift in Sources */,
 				0D62CF23290A56A9003127FF /* GeneralsettingApp.swift in Sources */,
+				0D62CF7D290D008C003127FF /* itemlistviewmodel.swift in Sources */,
+				0D62CF8A290E7E0B003127FF /* Delete account.swift in Sources */,
+				0D62CF70290BFFD1003127FF /* forget password.swift in Sources */,
+				0D62CF6B290BEF0D003127FF /* SwiftUIView.swift in Sources */,
+				0D62CF86290E5D67003127FF /* coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
